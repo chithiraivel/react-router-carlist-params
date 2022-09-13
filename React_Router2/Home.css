@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(245, 229, 208);
+}
+.input-box-par{
+    border: 1px dotted;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin:0 auto;
+    margin-top: 100px;
+    padding-top: 60px;
+    background-color: rgb(228, 152, 211);
+    box-shadow: 1px 2px 20px yellow;
+    border-radius: 15px;
+}
+
+.input-box-par input{
+    border-radius: 3px;
+    
+}
+
+.car-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car1{
+    margin: 10px 10px;
+    margin-left: 40px;
+    text-align: center;
+}
+.car2{
+    text-align: center;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.car2 p{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.car1 button{
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 140px;
+    
+   
+}
+.car1 button:hover{
+    background-color: rgb(212, 149, 13);
+}
+.car-list img{
+    height: 350px;
+    width: 400px;
+    border-radius: 40px;
+    margin-left: 150px;
+}
+.indi{
+    text-align: center;
+}
+.indi button{
+    font-size: 25px;
+    border: none;
+}
+
+.view{
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.view button{
+    height: 40px;
+    width: 80px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+.view button:hover{
+    background-color: rgb(230, 208, 84);
+}
